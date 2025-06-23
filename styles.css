@@ -1,0 +1,35 @@
+header {
+    text-align: center;
+    color: green;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    width: calc(100% - 80px);
+    height: 100vh;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: auto;
+}
+
+footer {
+    text-align: center;
+}
+
+.inputSection {
+    text-align: center;
+}
