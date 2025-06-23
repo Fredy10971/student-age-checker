@@ -11,3 +11,10 @@ document.querySelector('.jsCheckButton').addEventListener('click', () => {
         'Is not of age and cannot drive';
     }
 })
+
+function getCurrentYear() {
+    let currentYear = new Date().getFullYear();
+    return currentYear;
+}
+
+document.querySelector('.jsDate').innerHTML = getCurrentYear();

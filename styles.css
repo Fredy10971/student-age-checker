@@ -3,6 +3,7 @@ header {
     color: green;
     font-weight: bolder;
     font-size: 25px;
+    border-bottom: gray 1px solid;
 }
 
 html {
@@ -16,6 +17,20 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.showMessage {
+    padding: 4px 0;
+
+}
+
+.checkButton {
+    border: none;
+    background-color: darkgreen;
+    padding: 4px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 main {
@@ -32,4 +47,9 @@ footer {
 
 .inputSection {
     text-align: center;
+}
+
+footer p {
+    font-size: small;
+    color: grays;
 }
